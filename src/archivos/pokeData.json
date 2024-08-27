@@ -1,152 +1,227 @@
 [
      {
           "id": 1,
-          "nombre": "pikachu",
-          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+          "nombre": "pidgey",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png",
           "tipo": [
-               "electric"
+               "normal",
+               "flying"
           ],
           "habilidades": [
-               "static",
-               "lightning-rod"
+               "keen-eye",
+               "tangled-feet",
+               "big-pecks"
           ],
           "movimientos": [
-               "mega-punch",
-               "pay-day",
-               "thunder-punch",
-               "slam",
-               "double-kick",
-               "mega-kick",
+               "razor-wind",
+               "gust",
+               "wing-attack",
+               "whirlwind",
+               "fly",
+               "sand-attack",
                "headbutt",
-               "body-slam"
+               "tackle"
           ]
      },
      {
           "id": 2,
-          "nombre": "raichu",
-          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png",
+          "nombre": "pidgeotto",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png",
           "tipo": [
-               "electric"
+               "normal",
+               "flying"
           ],
           "habilidades": [
-               "static",
-               "lightning-rod"
+               "keen-eye",
+               "tangled-feet",
+               "big-pecks"
           ],
           "movimientos": [
-               "mega-punch",
-               "pay-day",
-               "thunder-punch",
-               "slam",
-               "mega-kick",
+               "razor-wind",
+               "gust",
+               "wing-attack",
+               "whirlwind",
+               "fly",
+               "sand-attack",
                "headbutt",
-               "body-slam",
-               "take-down"
+               "tackle"
           ]
      },
      {
           "id": 3,
-          "nombre": "magnemite",
-          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png",
+          "nombre": "pidgeot",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png",
           "tipo": [
-               "electric",
-               "steel"
+               "normal",
+               "flying"
           ],
           "habilidades": [
-               "magnet-pull",
-               "sturdy",
-               "analytic"
+               "keen-eye",
+               "tangled-feet",
+               "big-pecks"
           ],
           "movimientos": [
+               "razor-wind",
+               "gust",
+               "wing-attack",
+               "whirlwind",
+               "fly",
+               "sand-attack",
                "headbutt",
-               "tackle",
-               "take-down",
-               "double-edge",
-               "supersonic",
-               "sonic-boom",
-               "thunder-shock",
-               "thunderbolt"
+               "tackle"
           ]
      },
      {
           "id": 4,
-          "nombre": "magneton",
-          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png",
+          "nombre": "rattata",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png",
           "tipo": [
-               "electric",
-               "steel"
+               "normal"
           ],
           "habilidades": [
-               "magnet-pull",
-               "sturdy",
-               "analytic"
+               "run-away",
+               "guts",
+               "hustle"
           ],
           "movimientos": [
+               "cut",
                "headbutt",
                "tackle",
+               "body-slam",
                "take-down",
                "double-edge",
-               "supersonic",
-               "sonic-boom",
-               "hyper-beam",
-               "thunder-shock"
+               "tail-whip",
+               "bite"
           ]
      },
      {
           "id": 5,
-          "nombre": "voltorb",
-          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png",
+          "nombre": "raticate",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png",
           "tipo": [
-               "electric"
+               "normal"
           ],
           "habilidades": [
-               "soundproof",
-               "static",
-               "aftermath"
+               "run-away",
+               "guts",
+               "hustle"
           ],
           "movimientos": [
+               "swords-dance",
+               "cut",
                "headbutt",
                "tackle",
+               "body-slam",
                "take-down",
                "double-edge",
-               "sonic-boom",
-               "thunder-shock",
-               "thunderbolt",
-               "thunder-wave"
+               "tail-whip"
           ]
      },
      {
           "id": 6,
-          "nombre": "electrode",
-          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png",
+          "nombre": "spearow",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png",
           "tipo": [
-               "electric"
+               "normal",
+               "flying"
           ],
           "habilidades": [
-               "soundproof",
-               "static",
-               "aftermath"
+               "keen-eye",
+               "sniper"
           ],
           "movimientos": [
+               "razor-wind",
+               "wing-attack",
+               "whirlwind",
+               "fly",
                "headbutt",
-               "tackle",
+               "fury-attack",
                "take-down",
-               "double-edge",
-               "sonic-boom",
-               "hyper-beam",
-               "thunder-shock",
-               "thunderbolt"
+               "double-edge"
           ]
      },
      {
           "id": 7,
-          "nombre": "electabuzz",
-          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png",
+          "nombre": "fearow",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png",
           "tipo": [
-               "electric"
+               "normal",
+               "flying"
           ],
           "habilidades": [
-               "static",
-               "vital-spirit"
+               "keen-eye",
+               "sniper"
+          ],
+          "movimientos": [
+               "razor-wind",
+               "wing-attack",
+               "whirlwind",
+               "fly",
+               "headbutt",
+               "fury-attack",
+               "take-down",
+               "double-edge"
+          ]
+     },
+     {
+          "id": 8,
+          "nombre": "jigglypuff",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
+          "tipo": [
+               "normal",
+               "fairy"
+          ],
+          "habilidades": [
+               "cute-charm",
+               "competitive",
+               "friend-guard"
+          ],
+          "movimientos": [
+               "pound",
+               "double-slap",
+               "mega-punch",
+               "fire-punch",
+               "ice-punch",
+               "thunder-punch",
+               "mega-kick",
+               "headbutt"
+          ]
+     },
+     {
+          "id": 9,
+          "nombre": "wigglytuff",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png",
+          "tipo": [
+               "normal",
+               "fairy"
+          ],
+          "habilidades": [
+               "cute-charm",
+               "competitive",
+               "frisk"
+          ],
+          "movimientos": [
+               "pound",
+               "double-slap",
+               "mega-punch",
+               "fire-punch",
+               "ice-punch",
+               "thunder-punch",
+               "mega-kick",
+               "headbutt"
+          ]
+     },
+     {
+          "id": 10,
+          "nombre": "abra",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png",
+          "tipo": [
+               "psychic"
+          ],
+          "habilidades": [
+               "synchronize",
+               "inner-focus",
+               "magic-guard"
           ],
           "movimientos": [
                "mega-punch",
@@ -160,19 +235,1416 @@
           ]
      },
      {
-          "id": 8,
-          "nombre": "jolteon",
-          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png",
+          "id": 11,
+          "nombre": "kadabra",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png",
           "tipo": [
-               "electric"
+               "psychic"
           ],
           "habilidades": [
-               "volt-absorb",
-               "quick-feet"
+               "synchronize",
+               "inner-focus",
+               "magic-guard"
+          ],
+          "movimientos": [
+               "mega-punch",
+               "fire-punch",
+               "ice-punch",
+               "thunder-punch",
+               "mega-kick",
+               "headbutt",
+               "body-slam",
+               "take-down"
+          ]
+     },
+     {
+          "id": 12,
+          "nombre": "alakazam",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png",
+          "tipo": [
+               "psychic"
+          ],
+          "habilidades": [
+               "synchronize",
+               "inner-focus",
+               "magic-guard"
+          ],
+          "movimientos": [
+               "mega-punch",
+               "fire-punch",
+               "ice-punch",
+               "thunder-punch",
+               "mega-kick",
+               "headbutt",
+               "body-slam",
+               "take-down"
+          ]
+     },
+     {
+          "id": 13,
+          "nombre": "slowpoke",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png",
+          "tipo": [
+               "water",
+               "psychic"
+          ],
+          "habilidades": [
+               "oblivious",
+               "own-tempo",
+               "regenerator"
           ],
           "movimientos": [
                "pay-day",
+               "stomp",
+               "headbutt",
+               "tackle",
+               "body-slam",
+               "take-down",
+               "double-edge",
+               "growl"
+          ]
+     },
+     {
+          "id": 14,
+          "nombre": "slowbro",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png",
+          "tipo": [
+               "water",
+               "psychic"
+          ],
+          "habilidades": [
+               "oblivious",
+               "own-tempo",
+               "regenerator"
+          ],
+          "movimientos": [
+               "mega-punch",
+               "pay-day",
+               "ice-punch",
+               "stomp",
+               "mega-kick",
+               "headbutt",
+               "tackle",
+               "body-slam"
+          ]
+     },
+     {
+          "id": 15,
+          "nombre": "drowzee",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png",
+          "tipo": [
+               "psychic"
+          ],
+          "habilidades": [
+               "insomnia",
+               "forewarn",
+               "inner-focus"
+          ],
+          "movimientos": [
+               "pound",
+               "mega-punch",
+               "fire-punch",
+               "ice-punch",
+               "thunder-punch",
+               "mega-kick",
+               "headbutt",
+               "body-slam"
+          ]
+     },
+     {
+          "id": 16,
+          "nombre": "hypno",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png",
+          "tipo": [
+               "psychic"
+          ],
+          "habilidades": [
+               "insomnia",
+               "forewarn",
+               "inner-focus"
+          ],
+          "movimientos": [
+               "pound",
+               "mega-punch",
+               "fire-punch",
+               "ice-punch",
+               "thunder-punch",
+               "mega-kick",
+               "headbutt",
+               "body-slam"
+          ]
+     },
+     {
+          "id": 17,
+          "nombre": "exeggcute",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png",
+          "tipo": [
+               "grass",
+               "psychic"
+          ],
+          "habilidades": [
+               "chlorophyll",
+               "harvest"
+          ],
+          "movimientos": [
+               "swords-dance",
+               "headbutt",
+               "take-down",
+               "double-edge",
+               "psybeam",
+               "strength",
+               "absorb",
+               "mega-drain"
+          ]
+     },
+     {
+          "id": 18,
+          "nombre": "exeggutor",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png",
+          "tipo": [
+               "grass",
+               "psychic"
+          ],
+          "habilidades": [
+               "chlorophyll",
+               "harvest"
+          ],
+          "movimientos": [
+               "swords-dance",
+               "stomp",
+               "headbutt",
+               "body-slam",
+               "take-down",
+               "double-edge",
+               "psybeam",
+               "hyper-beam"
+          ]
+     },
+     {
+          "id": 19,
+          "nombre": "squirtle",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
+          "tipo": [
+               "water"
+          ],
+          "habilidades": [
+               "torrent",
+               "rain-dish"
+          ],
+          "movimientos": [
+               "mega-punch",
+               "ice-punch",
+               "mega-kick",
+               "headbutt",
+               "tackle",
+               "body-slam",
+               "take-down",
+               "double-edge"
+          ]
+     },
+     {
+          "id": 20,
+          "nombre": "wartortle",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
+          "tipo": [
+               "water"
+          ],
+          "habilidades": [
+               "torrent",
+               "rain-dish"
+          ],
+          "movimientos": [
+               "mega-punch",
+               "ice-punch",
+               "mega-kick",
+               "headbutt",
+               "tackle",
+               "body-slam",
+               "take-down",
+               "double-edge"
+          ]
+     },
+     {
+          "id": 21,
+          "nombre": "blastoise",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
+          "tipo": [
+               "water"
+          ],
+          "habilidades": [
+               "torrent",
+               "rain-dish"
+          ],
+          "movimientos": [
+               "mega-punch",
+               "ice-punch",
+               "mega-kick",
+               "headbutt",
+               "tackle",
+               "body-slam",
+               "take-down",
+               "double-edge"
+          ]
+     },
+     {
+          "id": 22,
+          "nombre": "psyduck",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png",
+          "tipo": [
+               "water"
+          ],
+          "habilidades": [
+               "damp",
+               "cloud-nine",
+               "swift-swim"
+          ],
+          "movimientos": [
+               "mega-punch",
+               "pay-day",
+               "ice-punch",
+               "scratch",
+               "mega-kick",
+               "headbutt",
+               "body-slam",
+               "take-down"
+          ]
+     },
+     {
+          "id": 23,
+          "nombre": "golduck",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png",
+          "tipo": [
+               "water"
+          ],
+          "habilidades": [
+               "damp",
+               "cloud-nine",
+               "swift-swim"
+          ],
+          "movimientos": [
+               "mega-punch",
+               "pay-day",
+               "ice-punch",
+               "scratch",
+               "mega-kick",
+               "headbutt",
+               "body-slam",
+               "take-down"
+          ]
+     },
+     {
+          "id": 24,
+          "nombre": "poliwag",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png",
+          "tipo": [
+               "water"
+          ],
+          "habilidades": [
+               "water-absorb",
+               "damp",
+               "swift-swim"
+          ],
+          "movimientos": [
+               "pound",
+               "double-slap",
+               "headbutt",
+               "body-slam",
+               "take-down",
+               "double-edge",
+               "mist",
+               "water-gun"
+          ]
+     },
+     {
+          "id": 25,
+          "nombre": "poliwhirl",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png",
+          "tipo": [
+               "water"
+          ],
+          "habilidades": [
+               "water-absorb",
+               "damp",
+               "swift-swim"
+          ],
+          "movimientos": [
+               "pound",
+               "double-slap",
+               "mega-punch",
+               "ice-punch",
+               "mega-kick",
+               "headbutt",
+               "body-slam",
+               "take-down"
+          ]
+     },
+     {
+          "id": 26,
+          "nombre": "poliwrath",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png",
+          "tipo": [
+               "water",
+               "fighting"
+          ],
+          "habilidades": [
+               "water-absorb",
+               "damp",
+               "swift-swim"
+          ],
+          "movimientos": [
+               "pound",
+               "double-slap",
+               "mega-punch",
+               "ice-punch",
+               "mega-kick",
+               "headbutt",
+               "body-slam",
+               "take-down"
+          ]
+     },
+     {
+          "id": 27,
+          "nombre": "tentacool",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png",
+          "tipo": [
+               "water",
+               "poison"
+          ],
+          "habilidades": [
+               "clear-body",
+               "liquid-ooze",
+               "rain-dish"
+          ],
+          "movimientos": [
+               "swords-dance",
+               "cut",
+               "bind",
+               "headbutt",
+               "wrap",
+               "take-down",
+               "double-edge",
+               "poison-sting"
+          ]
+     },
+     {
+          "id": 28,
+          "nombre": "charmander",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+          "tipo": [
+               "fire"
+          ],
+          "habilidades": [
+               "blaze",
+               "solar-power"
+          ],
+          "movimientos": [
+               "mega-punch",
+               "fire-punch",
+               "thunder-punch",
+               "scratch",
+               "swords-dance",
+               "cut",
+               "wing-attack",
+               "mega-kick"
+          ]
+     },
+     {
+          "id": 29,
+          "nombre": "charmeleon",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
+          "tipo": [
+               "fire"
+          ],
+          "habilidades": [
+               "blaze",
+               "solar-power"
+          ],
+          "movimientos": [
+               "mega-punch",
+               "fire-punch",
+               "thunder-punch",
+               "scratch",
+               "swords-dance",
+               "cut",
+               "mega-kick",
+               "headbutt"
+          ]
+     },
+     {
+          "id": 30,
+          "nombre": "charizard",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+          "tipo": [
+               "fire",
+               "flying"
+          ],
+          "habilidades": [
+               "blaze",
+               "solar-power"
+          ],
+          "movimientos": [
+               "mega-punch",
+               "fire-punch",
+               "thunder-punch",
+               "scratch",
+               "swords-dance",
+               "cut",
+               "wing-attack",
+               "fly"
+          ]
+     },
+     {
+          "id": 31,
+          "nombre": "vulpix",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png",
+          "tipo": [
+               "fire"
+          ],
+          "habilidades": [
+               "flash-fire",
+               "drought"
+          ],
+          "movimientos": [
+               "headbutt",
+               "tackle",
+               "body-slam",
+               "take-down",
+               "double-edge",
+               "tail-whip",
+               "roar",
+               "disable"
+          ]
+     },
+     {
+          "id": 32,
+          "nombre": "ninetales",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png",
+          "tipo": [
+               "fire"
+          ],
+          "habilidades": [
+               "flash-fire",
+               "drought"
+          ],
+          "movimientos": [
+               "headbutt",
+               "tackle",
+               "body-slam",
+               "take-down",
+               "double-edge",
+               "tail-whip",
+               "roar",
+               "disable"
+          ]
+     },
+     {
+          "id": 33,
+          "nombre": "growlithe",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png",
+          "tipo": [
+               "fire"
+          ],
+          "habilidades": [
+               "intimidate",
+               "flash-fire",
+               "justified"
+          ],
+          "movimientos": [
                "double-kick",
+               "headbutt",
+               "body-slam",
+               "take-down",
+               "thrash",
+               "double-edge",
+               "leer",
+               "bite"
+          ]
+     },
+     {
+          "id": 34,
+          "nombre": "arcanine",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png",
+          "tipo": [
+               "fire"
+          ],
+          "habilidades": [
+               "intimidate",
+               "flash-fire",
+               "justified"
+          ],
+          "movimientos": [
+               "headbutt",
+               "body-slam",
+               "take-down",
+               "double-edge",
+               "leer",
+               "bite",
+               "roar",
+               "ember"
+          ]
+     },
+     {
+          "id": 35,
+          "nombre": "ponyta",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png",
+          "tipo": [
+               "fire"
+          ],
+          "habilidades": [
+               "run-away",
+               "flash-fire",
+               "flame-body"
+          ],
+          "movimientos": [
+               "stomp",
+               "double-kick",
+               "headbutt",
+               "horn-drill",
+               "tackle",
+               "body-slam",
+               "take-down",
+               "thrash"
+          ]
+     },
+     {
+          "id": 36,
+          "nombre": "rapidash",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png",
+          "tipo": [
+               "fire"
+          ],
+          "habilidades": [
+               "run-away",
+               "flash-fire",
+               "flame-body"
+          ],
+          "movimientos": [
+               "pay-day",
+               "swords-dance",
+               "stomp",
+               "double-kick",
+               "headbutt",
+               "fury-attack",
+               "horn-drill",
+               "tackle"
+          ]
+     },
+     {
+          "id": 37,
+          "nombre": "bulbasaur",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+          "tipo": [
+               "grass",
+               "poison"
+          ],
+          "habilidades": [
+               "overgrow",
+               "chlorophyll"
+          ],
+          "movimientos": [
+               "razor-wind",
+               "swords-dance",
+               "cut",
+               "bind",
+               "vine-whip",
+               "headbutt",
+               "tackle",
+               "body-slam"
+          ]
+     },
+     {
+          "id": 38,
+          "nombre": "ivysaur",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+          "tipo": [
+               "grass",
+               "poison"
+          ],
+          "habilidades": [
+               "overgrow",
+               "chlorophyll"
+          ],
+          "movimientos": [
+               "swords-dance",
+               "cut",
+               "bind",
+               "vine-whip",
+               "headbutt",
+               "tackle",
+               "body-slam",
+               "take-down"
+          ]
+     },
+     {
+          "id": 39,
+          "nombre": "venusaur",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
+          "tipo": [
+               "grass",
+               "poison"
+          ],
+          "habilidades": [
+               "overgrow",
+               "chlorophyll"
+          ],
+          "movimientos": [
+               "swords-dance",
+               "cut",
+               "bind",
+               "vine-whip",
+               "headbutt",
+               "tackle",
+               "body-slam",
+               "take-down"
+          ]
+     },
+     {
+          "id": 40,
+          "nombre": "oddish",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png",
+          "tipo": [
+               "grass",
+               "poison"
+          ],
+          "habilidades": [
+               "chlorophyll",
+               "run-away"
+          ],
+          "movimientos": [
+               "swords-dance",
+               "cut",
+               "headbutt",
+               "take-down",
+               "double-edge",
+               "acid",
+               "absorb",
+               "mega-drain"
+          ]
+     },
+     {
+          "id": 41,
+          "nombre": "gloom",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png",
+          "tipo": [
+               "grass",
+               "poison"
+          ],
+          "habilidades": [
+               "chlorophyll",
+               "stench"
+          ],
+          "movimientos": [
+               "swords-dance",
+               "cut",
+               "headbutt",
+               "take-down",
+               "double-edge",
+               "acid",
+               "absorb",
+               "mega-drain"
+          ]
+     },
+     {
+          "id": 42,
+          "nombre": "vileplume",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png",
+          "tipo": [
+               "grass",
+               "poison"
+          ],
+          "habilidades": [
+               "chlorophyll",
+               "effect-spore"
+          ],
+          "movimientos": [
+               "swords-dance",
+               "cut",
+               "headbutt",
+               "body-slam",
+               "take-down",
+               "double-edge",
+               "acid",
+               "hyper-beam"
+          ]
+     },
+     {
+          "id": 43,
+          "nombre": "paras",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png",
+          "tipo": [
+               "bug",
+               "grass"
+          ],
+          "habilidades": [
+               "effect-spore",
+               "dry-skin",
+               "damp"
+          ],
+          "movimientos": [
+               "scratch",
+               "swords-dance",
+               "cut",
+               "headbutt",
+               "body-slam",
+               "take-down",
+               "double-edge",
+               "psybeam"
+          ]
+     },
+     {
+          "id": 44,
+          "nombre": "parasect",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png",
+          "tipo": [
+               "bug",
+               "grass"
+          ],
+          "habilidades": [
+               "effect-spore",
+               "dry-skin",
+               "damp"
+          ],
+          "movimientos": [
+               "scratch",
+               "swords-dance",
+               "cut",
+               "headbutt",
+               "body-slam",
+               "take-down",
+               "double-edge",
+               "hyper-beam"
+          ]
+     },
+     {
+          "id": 45,
+          "nombre": "bellsprout",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png",
+          "tipo": [
+               "grass",
+               "poison"
+          ],
+          "habilidades": [
+               "chlorophyll",
+               "gluttony"
+          ],
+          "movimientos": [
+               "swords-dance",
+               "cut",
+               "bind",
+               "slam",
+               "vine-whip",
+               "headbutt",
+               "wrap",
+               "take-down"
+          ]
+     },
+     {
+          "id": 46,
+          "nombre": "gastly",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png",
+          "tipo": [
+               "ghost",
+               "poison"
+          ],
+          "habilidades": [
+               "levitate"
+          ],
+          "movimientos": [
+               "fire-punch",
+               "ice-punch",
+               "thunder-punch",
+               "headbutt",
+               "disable",
+               "mega-drain",
+               "thunderbolt",
+               "thunder"
+          ]
+     },
+     {
+          "id": 47,
+          "nombre": "haunter",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png",
+          "tipo": [
+               "ghost",
+               "poison"
+          ],
+          "habilidades": [
+               "levitate"
+          ],
+          "movimientos": [
+               "fire-punch",
+               "ice-punch",
+               "thunder-punch",
+               "headbutt",
+               "mega-drain",
+               "thunderbolt",
+               "thunder",
+               "toxic"
+          ]
+     },
+     {
+          "id": 48,
+          "nombre": "gengar",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png",
+          "tipo": [
+               "ghost",
+               "poison"
+          ],
+          "habilidades": [
+               "cursed-body"
+          ],
+          "movimientos": [
+               "mega-punch",
+               "fire-punch",
+               "ice-punch",
+               "thunder-punch",
+               "mega-kick",
+               "headbutt",
+               "body-slam",
+               "take-down"
+          ]
+     },
+     {
+          "id": 49,
+          "nombre": "misdreavus",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/200.png",
+          "tipo": [
+               "ghost"
+          ],
+          "habilidades": [
+               "levitate"
+          ],
+          "movimientos": [
+               "headbutt",
+               "double-edge",
+               "growl",
+               "psybeam",
+               "hyper-beam",
+               "thunderbolt",
+               "thunder-wave",
+               "thunder"
+          ]
+     },
+     {
+          "id": 50,
+          "nombre": "shedinja",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/292.png",
+          "tipo": [
+               "bug",
+               "ghost"
+          ],
+          "habilidades": [
+               "wonder-guard"
+          ],
+          "movimientos": [
+               "scratch",
+               "cut",
+               "sand-attack",
+               "double-edge",
+               "hyper-beam",
+               "absorb",
+               "solar-beam",
+               "string-shot"
+          ]
+     },
+     {
+          "id": 51,
+          "nombre": "sableye",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/302.png",
+          "tipo": [
+               "dark",
+               "ghost"
+          ],
+          "habilidades": [
+               "keen-eye",
+               "stall",
+               "prankster"
+          ],
+          "movimientos": [
+               "mega-punch",
+               "fire-punch",
+               "ice-punch",
+               "thunder-punch",
+               "scratch",
+               "cut",
+               "mega-kick",
+               "headbutt"
+          ]
+     },
+     {
+          "id": 52,
+          "nombre": "shuppet",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/353.png",
+          "tipo": [
+               "ghost"
+          ],
+          "habilidades": [
+               "insomnia",
+               "frisk",
+               "cursed-body"
+          ],
+          "movimientos": [
+               "headbutt",
+               "body-slam",
+               "double-edge",
+               "disable",
+               "psybeam",
+               "thunderbolt",
+               "thunder-wave",
+               "thunder"
+          ]
+     },
+     {
+          "id": 53,
+          "nombre": "banette",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/354.png",
+          "tipo": [
+               "ghost"
+          ],
+          "habilidades": [
+               "insomnia",
+               "frisk",
+               "cursed-body"
+          ],
+          "movimientos": [
+               "swords-dance",
+               "headbutt",
+               "body-slam",
+               "double-edge",
+               "psybeam",
+               "hyper-beam",
+               "thunderbolt",
+               "thunder-wave"
+          ]
+     },
+     {
+          "id": 54,
+          "nombre": "duskull",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/355.png",
+          "tipo": [
+               "ghost"
+          ],
+          "habilidades": [
+               "levitate",
+               "frisk"
+          ],
+          "movimientos": [
+               "headbutt",
+               "body-slam",
+               "double-edge",
+               "leer",
+               "disable",
+               "ice-beam",
+               "blizzard",
+               "toxic"
+          ]
+     },
+     {
+          "id": 55,
+          "nombre": "bulbasaur",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+          "tipo": [
+               "grass",
+               "poison"
+          ],
+          "habilidades": [
+               "overgrow",
+               "chlorophyll"
+          ],
+          "movimientos": [
+               "razor-wind",
+               "swords-dance",
+               "cut",
+               "bind",
+               "vine-whip",
+               "headbutt",
+               "tackle",
+               "body-slam"
+          ]
+     },
+     {
+          "id": 56,
+          "nombre": "ivysaur",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+          "tipo": [
+               "grass",
+               "poison"
+          ],
+          "habilidades": [
+               "overgrow",
+               "chlorophyll"
+          ],
+          "movimientos": [
+               "swords-dance",
+               "cut",
+               "bind",
+               "vine-whip",
+               "headbutt",
+               "tackle",
+               "body-slam",
+               "take-down"
+          ]
+     },
+     {
+          "id": 57,
+          "nombre": "venusaur",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
+          "tipo": [
+               "grass",
+               "poison"
+          ],
+          "habilidades": [
+               "overgrow",
+               "chlorophyll"
+          ],
+          "movimientos": [
+               "swords-dance",
+               "cut",
+               "bind",
+               "vine-whip",
+               "headbutt",
+               "tackle",
+               "body-slam",
+               "take-down"
+          ]
+     },
+     {
+          "id": 58,
+          "nombre": "weedle",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png",
+          "tipo": [
+               "bug",
+               "poison"
+          ],
+          "habilidades": [
+               "shield-dust",
+               "run-away"
+          ],
+          "movimientos": [
+               "poison-sting",
+               "string-shot",
+               "bug-bite",
+               "electroweb"
+          ]
+     },
+     {
+          "id": 59,
+          "nombre": "kakuna",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png",
+          "tipo": [
+               "bug",
+               "poison"
+          ],
+          "habilidades": [
+               "shed-skin"
+          ],
+          "movimientos": [
+               "string-shot",
+               "harden",
+               "iron-defense",
+               "bug-bite",
+               "electroweb"
+          ]
+     },
+     {
+          "id": 60,
+          "nombre": "beedrill",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png",
+          "tipo": [
+               "bug",
+               "poison"
+          ],
+          "habilidades": [
+               "swarm",
+               "sniper"
+          ],
+          "movimientos": [
+               "swords-dance",
+               "cut",
+               "headbutt",
+               "fury-attack",
+               "take-down",
+               "double-edge",
+               "poison-sting",
+               "twineedle"
+          ]
+     },
+     {
+          "id": 61,
+          "nombre": "ekans",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png",
+          "tipo": [
+               "poison"
+          ],
+          "habilidades": [
+               "intimidate",
+               "shed-skin",
+               "unnerve"
+          ],
+          "movimientos": [
+               "bind",
+               "slam",
+               "headbutt",
+               "body-slam",
+               "wrap",
+               "take-down",
+               "double-edge",
+               "poison-sting"
+          ]
+     },
+     {
+          "id": 62,
+          "nombre": "arbok",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png",
+          "tipo": [
+               "poison"
+          ],
+          "habilidades": [
+               "intimidate",
+               "shed-skin",
+               "unnerve"
+          ],
+          "movimientos": [
+               "bind",
+               "slam",
+               "headbutt",
+               "body-slam",
+               "wrap",
+               "take-down",
+               "double-edge",
+               "poison-sting"
+          ]
+     },
+     {
+          "id": 63,
+          "nombre": "nidoran-f",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png",
+          "tipo": [
+               "poison"
+          ],
+          "habilidades": [
+               "poison-point",
+               "rivalry",
+               "hustle"
+          ],
+          "movimientos": [
+               "scratch",
+               "cut",
+               "double-kick",
+               "headbutt",
+               "tackle",
+               "body-slam",
+               "take-down",
+               "double-edge"
+          ]
+     },
+     {
+          "id": 64,
+          "nombre": "caterpie",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png",
+          "tipo": [
+               "bug"
+          ],
+          "habilidades": [
+               "shield-dust",
+               "run-away"
+          ],
+          "movimientos": [
+               "tackle",
+               "string-shot",
+               "snore",
+               "bug-bite",
+               "electroweb"
+          ]
+     },
+     {
+          "id": 65,
+          "nombre": "metapod",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png",
+          "tipo": [
+               "bug"
+          ],
+          "habilidades": [
+               "shed-skin"
+          ],
+          "movimientos": [
+               "string-shot",
+               "harden",
+               "iron-defense",
+               "bug-bite",
+               "electroweb"
+          ]
+     },
+     {
+          "id": 66,
+          "nombre": "butterfree",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
+          "tipo": [
+               "bug",
+               "flying"
+          ],
+          "habilidades": [
+               "compound-eyes",
+               "tinted-lens"
+          ],
+          "movimientos": [
+               "razor-wind",
+               "gust",
+               "whirlwind",
+               "headbutt",
+               "tackle",
+               "take-down",
+               "double-edge",
+               "supersonic"
+          ]
+     },
+     {
+          "id": 67,
+          "nombre": "weedle",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png",
+          "tipo": [
+               "bug",
+               "poison"
+          ],
+          "habilidades": [
+               "shield-dust",
+               "run-away"
+          ],
+          "movimientos": [
+               "poison-sting",
+               "string-shot",
+               "bug-bite",
+               "electroweb"
+          ]
+     },
+     {
+          "id": 68,
+          "nombre": "kakuna",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png",
+          "tipo": [
+               "bug",
+               "poison"
+          ],
+          "habilidades": [
+               "shed-skin"
+          ],
+          "movimientos": [
+               "string-shot",
+               "harden",
+               "iron-defense",
+               "bug-bite",
+               "electroweb"
+          ]
+     },
+     {
+          "id": 69,
+          "nombre": "beedrill",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png",
+          "tipo": [
+               "bug",
+               "poison"
+          ],
+          "habilidades": [
+               "swarm",
+               "sniper"
+          ],
+          "movimientos": [
+               "swords-dance",
+               "cut",
+               "headbutt",
+               "fury-attack",
+               "take-down",
+               "double-edge",
+               "poison-sting",
+               "twineedle"
+          ]
+     },
+     {
+          "id": 70,
+          "nombre": "paras",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png",
+          "tipo": [
+               "bug",
+               "grass"
+          ],
+          "habilidades": [
+               "effect-spore",
+               "dry-skin",
+               "damp"
+          ],
+          "movimientos": [
+               "scratch",
+               "swords-dance",
+               "cut",
+               "headbutt",
+               "body-slam",
+               "take-down",
+               "double-edge",
+               "psybeam"
+          ]
+     },
+     {
+          "id": 71,
+          "nombre": "parasect",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png",
+          "tipo": [
+               "bug",
+               "grass"
+          ],
+          "habilidades": [
+               "effect-spore",
+               "dry-skin",
+               "damp"
+          ],
+          "movimientos": [
+               "scratch",
+               "swords-dance",
+               "cut",
+               "headbutt",
+               "body-slam",
+               "take-down",
+               "double-edge",
+               "hyper-beam"
+          ]
+     },
+     {
+          "id": 72,
+          "nombre": "venonat",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png",
+          "tipo": [
+               "bug",
+               "poison"
+          ],
+          "habilidades": [
+               "compound-eyes",
+               "tinted-lens",
+               "run-away"
+          ],
+          "movimientos": [
+               "headbutt",
+               "tackle",
+               "take-down",
+               "double-edge",
+               "supersonic",
+               "disable",
+               "psybeam",
+               "mega-drain"
+          ]
+     },
+     {
+          "id": 73,
+          "nombre": "umbreon",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/197.png",
+          "tipo": [
+               "dark"
+          ],
+          "habilidades": [
+               "synchronize",
+               "inner-focus"
+          ],
+          "movimientos": [
+               "pay-day",
+               "cut",
                "sand-attack",
                "headbutt",
                "tackle",
@@ -182,26 +1654,833 @@
           ]
      },
      {
-          "id": 9,
-          "nombre": "zapdos",
-          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png",
+          "id": 74,
+          "nombre": "murkrow",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/198.png",
           "tipo": [
-               "electric",
+               "dark",
                "flying"
           ],
           "habilidades": [
-               "pressure",
-               "static"
+               "insomnia",
+               "super-luck",
+               "prankster"
+          ],
+          "movimientos": [
+               "gust",
+               "wing-attack",
+               "whirlwind",
+               "fly",
+               "take-down",
+               "double-edge",
+               "hyper-beam",
+               "peck"
+          ]
+     },
+     {
+          "id": 75,
+          "nombre": "sneasel",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/215.png",
+          "tipo": [
+               "dark",
+               "ice"
+          ],
+          "habilidades": [
+               "inner-focus",
+               "keen-eye",
+               "pickpocket"
+          ],
+          "movimientos": [
+               "mega-punch",
+               "ice-punch",
+               "scratch",
+               "swords-dance",
+               "cut",
+               "mega-kick",
+               "headbutt",
+               "take-down"
+          ]
+     },
+     {
+          "id": 76,
+          "nombre": "houndour",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/228.png",
+          "tipo": [
+               "dark",
+               "fire"
+          ],
+          "habilidades": [
+               "early-bird",
+               "flash-fire",
+               "unnerve"
+          ],
+          "movimientos": [
+               "headbutt",
+               "body-slam",
+               "take-down",
+               "double-edge",
+               "leer",
+               "bite",
+               "roar",
+               "ember"
+          ]
+     },
+     {
+          "id": 77,
+          "nombre": "houndoom",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/229.png",
+          "tipo": [
+               "dark",
+               "fire"
+          ],
+          "habilidades": [
+               "early-bird",
+               "flash-fire",
+               "unnerve"
+          ],
+          "movimientos": [
+               "headbutt",
+               "body-slam",
+               "take-down",
+               "double-edge",
+               "leer",
+               "bite",
+               "roar",
+               "ember"
+          ]
+     },
+     {
+          "id": 78,
+          "nombre": "tyranitar",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/248.png",
+          "tipo": [
+               "rock",
+               "dark"
+          ],
+          "habilidades": [
+               "sand-stream",
+               "unnerve"
+          ],
+          "movimientos": [
+               "mega-punch",
+               "fire-punch",
+               "ice-punch",
+               "thunder-punch",
+               "cut",
+               "mega-kick",
+               "headbutt",
+               "tackle"
+          ]
+     },
+     {
+          "id": 79,
+          "nombre": "poochyena",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/261.png",
+          "tipo": [
+               "dark"
+          ],
+          "habilidades": [
+               "run-away",
+               "quick-feet",
+               "rattled"
+          ],
+          "movimientos": [
+               "sand-attack",
+               "headbutt",
+               "tackle",
+               "body-slam",
+               "take-down",
+               "double-edge",
+               "leer",
+               "bite"
+          ]
+     },
+     {
+          "id": 80,
+          "nombre": "mightyena",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/262.png",
+          "tipo": [
+               "dark"
+          ],
+          "habilidades": [
+               "intimidate",
+               "quick-feet",
+               "moxie"
+          ],
+          "movimientos": [
+               "sand-attack",
+               "headbutt",
+               "tackle",
+               "body-slam",
+               "take-down",
+               "double-edge",
+               "leer",
+               "bite"
+          ]
+     },
+     {
+          "id": 81,
+          "nombre": "nuzleaf",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/274.png",
+          "tipo": [
+               "grass",
+               "dark"
+          ],
+          "habilidades": [
+               "chlorophyll",
+               "early-bird",
+               "pickpocket"
+          ],
+          "movimientos": [
+               "pound",
+               "razor-wind",
+               "swords-dance",
+               "cut",
+               "mega-kick",
+               "headbutt",
+               "tackle",
+               "body-slam"
+          ]
+     },
+     {
+          "id": 82,
+          "nombre": "charizard",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+          "tipo": [
+               "fire",
+               "flying"
+          ],
+          "habilidades": [
+               "blaze",
+               "solar-power"
+          ],
+          "movimientos": [
+               "mega-punch",
+               "fire-punch",
+               "thunder-punch",
+               "scratch",
+               "swords-dance",
+               "cut",
+               "wing-attack",
+               "fly"
+          ]
+     },
+     {
+          "id": 83,
+          "nombre": "butterfree",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
+          "tipo": [
+               "bug",
+               "flying"
+          ],
+          "habilidades": [
+               "compound-eyes",
+               "tinted-lens"
           ],
           "movimientos": [
                "razor-wind",
+               "gust",
+               "whirlwind",
+               "headbutt",
+               "tackle",
+               "take-down",
+               "double-edge",
+               "supersonic"
+          ]
+     },
+     {
+          "id": 84,
+          "nombre": "pidgey",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png",
+          "tipo": [
+               "normal",
+               "flying"
+          ],
+          "habilidades": [
+               "keen-eye",
+               "tangled-feet",
+               "big-pecks"
+          ],
+          "movimientos": [
+               "razor-wind",
+               "gust",
+               "wing-attack",
+               "whirlwind",
+               "fly",
+               "sand-attack",
+               "headbutt",
+               "tackle"
+          ]
+     },
+     {
+          "id": 85,
+          "nombre": "pidgeotto",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png",
+          "tipo": [
+               "normal",
+               "flying"
+          ],
+          "habilidades": [
+               "keen-eye",
+               "tangled-feet",
+               "big-pecks"
+          ],
+          "movimientos": [
+               "razor-wind",
+               "gust",
+               "wing-attack",
+               "whirlwind",
+               "fly",
+               "sand-attack",
+               "headbutt",
+               "tackle"
+          ]
+     },
+     {
+          "id": 86,
+          "nombre": "pidgeot",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png",
+          "tipo": [
+               "normal",
+               "flying"
+          ],
+          "habilidades": [
+               "keen-eye",
+               "tangled-feet",
+               "big-pecks"
+          ],
+          "movimientos": [
+               "razor-wind",
+               "gust",
+               "wing-attack",
+               "whirlwind",
+               "fly",
+               "sand-attack",
+               "headbutt",
+               "tackle"
+          ]
+     },
+     {
+          "id": 87,
+          "nombre": "spearow",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png",
+          "tipo": [
+               "normal",
+               "flying"
+          ],
+          "habilidades": [
+               "keen-eye",
+               "sniper"
+          ],
+          "movimientos": [
+               "razor-wind",
+               "wing-attack",
+               "whirlwind",
+               "fly",
+               "headbutt",
+               "fury-attack",
+               "take-down",
+               "double-edge"
+          ]
+     },
+     {
+          "id": 88,
+          "nombre": "fearow",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png",
+          "tipo": [
+               "normal",
+               "flying"
+          ],
+          "habilidades": [
+               "keen-eye",
+               "sniper"
+          ],
+          "movimientos": [
+               "razor-wind",
+               "wing-attack",
+               "whirlwind",
+               "fly",
+               "headbutt",
+               "fury-attack",
+               "take-down",
+               "double-edge"
+          ]
+     },
+     {
+          "id": 89,
+          "nombre": "zubat",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png",
+          "tipo": [
+               "poison",
+               "flying"
+          ],
+          "habilidades": [
+               "inner-focus",
+               "infiltrator"
+          ],
+          "movimientos": [
+               "razor-wind",
+               "gust",
+               "wing-attack",
+               "whirlwind",
+               "fly",
+               "headbutt",
+               "take-down",
+               "double-edge"
+          ]
+     },
+     {
+          "id": 90,
+          "nombre": "golbat",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png",
+          "tipo": [
+               "poison",
+               "flying"
+          ],
+          "habilidades": [
+               "inner-focus",
+               "infiltrator"
+          ],
+          "movimientos": [
+               "razor-wind",
+               "wing-attack",
                "whirlwind",
                "fly",
                "headbutt",
                "take-down",
                "double-edge",
-               "leer",
+               "bite"
+          ]
+     },
+     {
+          "id": 91,
+          "nombre": "dewgong",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png",
+          "tipo": [
+               "water",
+               "ice"
+          ],
+          "habilidades": [
+               "thick-fat",
+               "hydration",
+               "ice-body"
+          ],
+          "movimientos": [
+               "pay-day",
+               "headbutt",
+               "horn-drill",
+               "body-slam",
+               "take-down",
+               "double-edge",
+               "growl",
+               "disable"
+          ]
+     },
+     {
+          "id": 92,
+          "nombre": "cloyster",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png",
+          "tipo": [
+               "water",
+               "ice"
+          ],
+          "habilidades": [
+               "shell-armor",
+               "skill-link",
+               "overcoat"
+          ],
+          "movimientos": [
+               "headbutt",
+               "tackle",
+               "body-slam",
+               "take-down",
+               "double-edge",
+               "twineedle",
+               "pin-missile",
+               "leer"
+          ]
+     },
+     {
+          "id": 93,
+          "nombre": "jynx",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/124.png",
+          "tipo": [
+               "ice",
+               "psychic"
+          ],
+          "habilidades": [
+               "oblivious",
+               "forewarn",
+               "dry-skin"
+          ],
+          "movimientos": [
+               "pound",
+               "double-slap",
+               "mega-punch",
+               "ice-punch",
+               "mega-kick",
+               "headbutt",
+               "body-slam",
+               "take-down"
+          ]
+     },
+     {
+          "id": 94,
+          "nombre": "lapras",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png",
+          "tipo": [
+               "water",
+               "ice"
+          ],
+          "habilidades": [
+               "water-absorb",
+               "shell-armor",
+               "hydration"
+          ],
+          "movimientos": [
+               "headbutt",
+               "horn-drill",
+               "body-slam",
+               "take-down",
+               "double-edge",
+               "growl",
+               "roar",
+               "sing"
+          ]
+     },
+     {
+          "id": 95,
+          "nombre": "articuno",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png",
+          "tipo": [
+               "ice",
+               "flying"
+          ],
+          "habilidades": [
+               "pressure",
+               "snow-cloak"
+          ],
+          "movimientos": [
+               "razor-wind",
+               "gust",
+               "whirlwind",
+               "fly",
+               "headbutt",
+               "take-down",
+               "double-edge",
+               "leer"
+          ]
+     },
+     {
+          "id": 96,
+          "nombre": "sneasel",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/215.png",
+          "tipo": [
+               "dark",
+               "ice"
+          ],
+          "habilidades": [
+               "inner-focus",
+               "keen-eye",
+               "pickpocket"
+          ],
+          "movimientos": [
+               "mega-punch",
+               "ice-punch",
+               "scratch",
+               "swords-dance",
+               "cut",
+               "mega-kick",
+               "headbutt",
+               "take-down"
+          ]
+     },
+     {
+          "id": 97,
+          "nombre": "swinub",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/220.png",
+          "tipo": [
+               "ice",
+               "ground"
+          ],
+          "habilidades": [
+               "oblivious",
+               "snow-cloak",
+               "thick-fat"
+          ],
+          "movimientos": [
+               "headbutt",
+               "tackle",
+               "body-slam",
+               "take-down",
+               "double-edge",
+               "bite",
+               "roar",
+               "mist"
+          ]
+     },
+     {
+          "id": 98,
+          "nombre": "piloswine",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/221.png",
+          "tipo": [
+               "ice",
+               "ground"
+          ],
+          "habilidades": [
+               "oblivious",
+               "snow-cloak",
+               "thick-fat"
+          ],
+          "movimientos": [
+               "headbutt",
+               "horn-attack",
+               "fury-attack",
+               "tackle",
+               "body-slam",
+               "take-down",
+               "thrash",
+               "double-edge"
+          ]
+     },
+     {
+          "id": 99,
+          "nombre": "delibird",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/225.png",
+          "tipo": [
+               "ice",
+               "flying"
+          ],
+          "habilidades": [
+               "vital-spirit",
+               "hustle",
+               "insomnia"
+          ],
+          "movimientos": [
+               "mega-punch",
+               "ice-punch",
+               "fly",
+               "mega-kick",
+               "headbutt",
+               "body-slam",
+               "take-down",
+               "double-edge"
+          ]
+     },
+     {
+          "id": 100,
+          "nombre": "geodude",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png",
+          "tipo": [
+               "rock",
+               "ground"
+          ],
+          "habilidades": [
+               "rock-head",
+               "sturdy",
+               "sand-veil"
+          ],
+          "movimientos": [
+               "mega-punch",
+               "fire-punch",
+               "thunder-punch",
+               "sand-attack",
+               "headbutt",
+               "tackle",
+               "body-slam",
+               "take-down"
+          ]
+     },
+     {
+          "id": 101,
+          "nombre": "graveler",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png",
+          "tipo": [
+               "rock",
+               "ground"
+          ],
+          "habilidades": [
+               "rock-head",
+               "sturdy",
+               "sand-veil"
+          ],
+          "movimientos": [
+               "mega-punch",
+               "fire-punch",
+               "thunder-punch",
+               "sand-attack",
+               "headbutt",
+               "tackle",
+               "body-slam",
+               "take-down"
+          ]
+     },
+     {
+          "id": 102,
+          "nombre": "golem",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png",
+          "tipo": [
+               "rock",
+               "ground"
+          ],
+          "habilidades": [
+               "rock-head",
+               "sturdy",
+               "sand-veil"
+          ],
+          "movimientos": [
+               "mega-punch",
+               "fire-punch",
+               "thunder-punch",
+               "mega-kick",
+               "sand-attack",
+               "headbutt",
+               "tackle",
+               "body-slam"
+          ]
+     },
+     {
+          "id": 103,
+          "nombre": "onix",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png",
+          "tipo": [
+               "rock",
+               "ground"
+          ],
+          "habilidades": [
+               "rock-head",
+               "sturdy",
+               "weak-armor"
+          ],
+          "movimientos": [
+               "bind",
+               "slam",
+               "headbutt",
+               "tackle",
+               "body-slam",
+               "take-down",
+               "double-edge",
                "roar"
+          ]
+     },
+     {
+          "id": 104,
+          "nombre": "rhyhorn",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png",
+          "tipo": [
+               "ground",
+               "rock"
+          ],
+          "habilidades": [
+               "lightning-rod",
+               "rock-head",
+               "reckless"
+          ],
+          "movimientos": [
+               "swords-dance",
+               "stomp",
+               "sand-attack",
+               "headbutt",
+               "horn-attack",
+               "fury-attack",
+               "horn-drill",
+               "tackle"
+          ]
+     },
+     {
+          "id": 105,
+          "nombre": "rhydon",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png",
+          "tipo": [
+               "ground",
+               "rock"
+          ],
+          "habilidades": [
+               "lightning-rod",
+               "rock-head",
+               "reckless"
+          ],
+          "movimientos": [
+               "mega-punch",
+               "pay-day",
+               "fire-punch",
+               "ice-punch",
+               "thunder-punch",
+               "swords-dance",
+               "cut",
+               "stomp"
+          ]
+     },
+     {
+          "id": 106,
+          "nombre": "omanyte",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/138.png",
+          "tipo": [
+               "rock",
+               "water"
+          ],
+          "habilidades": [
+               "swift-swim",
+               "shell-armor",
+               "weak-armor"
+          ],
+          "movimientos": [
+               "bind",
+               "slam",
+               "sand-attack",
+               "headbutt",
+               "horn-attack",
+               "body-slam",
+               "take-down",
+               "double-edge"
+          ]
+     },
+     {
+          "id": 107,
+          "nombre": "omastar",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/139.png",
+          "tipo": [
+               "rock",
+               "water"
+          ],
+          "habilidades": [
+               "swift-swim",
+               "shell-armor",
+               "weak-armor"
+          ],
+          "movimientos": [
+               "bind",
+               "sand-attack",
+               "headbutt",
+               "horn-attack",
+               "horn-drill",
+               "body-slam",
+               "take-down",
+               "double-edge"
+          ]
+     },
+     {
+          "id": 108,
+          "nombre": "kabuto",
+          "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/140.png",
+          "tipo": [
+               "rock",
+               "water"
+          ],
+          "habilidades": [
+               "swift-swim",
+               "battle-armor",
+               "weak-armor"
+          ],
+          "movimientos": [
+               "scratch",
+               "sand-attack",
+               "headbutt",
+               "body-slam",
+               "take-down",
+               "double-edge",
+               "leer",
+               "water-gun"
           ]
      }
 ]

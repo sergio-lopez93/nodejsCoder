@@ -1,6 +1,7 @@
 import fetch from 'node-fetch'
 import fs from 'fs'
 
+// funcion para traer los pokemones
 async function fetchPokemonByType (...type) {
   const allPokemon = []
 
@@ -12,10 +13,10 @@ async function fetchPokemonByType (...type) {
   return allPokemon
 }
 
+// funcion para extraer datos de pokemones
 async function fetchPokemonDetails (url) {
   const response = await fetch(url)
   const data = await response.json()
-  console.log(data)
   return {
     id: data.id,
     nombre: data.name,
@@ -26,6 +27,8 @@ async function fetchPokemonDetails (url) {
   }
 }
 
+// Funcion que aplica la funcion de traer los pokes por tipos y luego extrae
+// los datos de tipos de pokemon (cada url de tipos de pokes usando el .map)
 async function createPokemonJSONByType (...type) {
   const pokemonList = await fetchPokemonByType(...type)
   const pokemonDetails = await Promise.all(pokemonList.map(async (pokemon) => {
@@ -41,6 +44,7 @@ async function createPokemonJSONByType (...type) {
   return modifyIdFromPokemonDetails
 }
 
+// Ejecucion del writefile con los datos obtenidos en la funcion createPokesjson
 export async function savePokemonDataToFile (...type) {
   const pokemonData = await createPokemonJSONByType(...type)
   fs.writeFileSync('archivos/pokeData.json', JSON.stringify(pokemonData, null, 5))

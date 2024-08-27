@@ -4,44 +4,75 @@ async function fetchPokemonData () {
     const data = await response.json()
     return data
   } catch (err) {
-    console.error('error al leer el archivo json', err)
+    console.error('Error fetching Pokémon data:', err)
+    return []
   }
 }
 
 function createCard (pokemon) {
-  const movimientosIniciales = pokemon.movimientos.slice(0, 4)
-  const movimientosExtra = pokemon.movimientos.slice(4)
+  const card = document.createElement('div')
+  card.className = 'card'
+  card.innerHTML = `
+            <div class="card-content">
+                <div class="card-header">
+                    <h2 class="card-name">${pokemon.nombre}</h2>
+                    <span class="card-hp">HP ${pokemon.hp || 60}</span>
+                </div>
+                <div class="card-image">
+                    <img src="${pokemon.imagen}" alt="${pokemon.nombre}">
+                </div>
+                <div class="card-info">
+                    <p>Tipo: <span>${pokemon.tipo.join(', ')}</span></p>
+                    <p>Habilidades: <span>${pokemon.habilidades.join(', ')}</span></p>
+                    <p>Movimientos:</p>
+                    <ul class="movimientos">
+                        ${pokemon.movimientos.slice(0, 4).map(mov => `<li>${mov}</li>`).join('')}
+                    </ul>
+                </div>
+                <button class="show-more-btn" aria-expanded="false" aria-controls="movimientos-${pokemon.id}">
+                    Mostrar más
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
+                </button>
+            </div>
+        `
 
-  return `
-    <div class="card">
-      <img src="${pokemon.imagen}" alt="${pokemon.nombre}">
-      <h2>${pokemon.nombre}</h2>
-      <p><strong>Tipo:</strong> ${pokemon.tipo.join(', ')}</p>
-      <p><strong>Movimientos:</strong></p>
-      <ul class="movimientos">
-        ${movimientosIniciales.map(movimiento => `<li>${movimiento}</li>`).join('')}
-      </ul>
-      <button class="toggle-movimientos">Mostrar más</button>
-      <div class="popup">
-        <ul>
-          ${movimientosExtra.map(movimiento => `<li>${movimiento}</li>`).join('')}
-        </ul>
-      </div>
-      </div>
-  `
+  const showMoreBtn = card.querySelector('.show-more-btn')
+  const movimientosList = card.querySelector('.movimientos')
+
+  showMoreBtn.addEventListener('click', () => {
+    const expanded = showMoreBtn.getAttribute('aria-expanded') === 'true'
+    showMoreBtn.setAttribute('aria-expanded', !expanded)
+    if (expanded) {
+      movimientosList.innerHTML = pokemon.movimientos.slice(0, 4).map(mov => `<li>${mov}</li>`).join('')
+      showMoreBtn.innerHTML = `
+                    Mostrar más
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
+                `
+    } else {
+      movimientosList.innerHTML = pokemon.movimientos.map(mov => `<li>${mov}</li>`).join('')
+      showMoreBtn.innerHTML = `
+                    Mostrar menos
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="18 15 12 9 6 15"></polyline>
+                    </svg>
+                `
+    }
+  })
+
+  return card
 }
 
 async function displayPokemonCards () {
-  const data = await fetchPokemonData()
-  const container = document.getElementById('cards-container')
-  container.innerHTML = Object.values(data).flat().map(createCard).join('')
+  const cardsContainer = document.getElementById('cards-container')
+  const pokemonData = await fetchPokemonData()
 
-  document.querySelectorAll('.toggle-movimientos').forEach(button => {
-    button.addEventListener('click', () => {
-      const popup = button.nextElementSibling
-      popup.classList.toggle('show')
-      button.textContent = popup.classList.contains('show') ? 'Mostrar menos' : 'Mostrar más'
-    })
+  pokemonData.forEach(pokemon => {
+    const card = createCard(pokemon)
+    cardsContainer.appendChild(card)
   })
 }
 

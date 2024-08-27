@@ -4,12 +4,10 @@ import { savePokemonDataToFile } from '../dao/fetchAndSavePokemon.js'
 
 export const router = Router()
 
-PokeManager.path = './archivos/pokeData.json'
-
 router.get('/', async (req, res) => {
   try {
     const pokemones = await PokeManager.getPokes()
-    console.log(pokemones)
+    console.log('los pokemones fueron agregados correctamente')
     let { limit } = req.query
     if (limit) {
       limit = Number(limit)
@@ -28,17 +26,17 @@ router.get('/', async (req, res) => {
   }
 })
 
-router.get('/:id', async (req, res) => {
+router.get('/:pid', async (req, res) => {
   try {
     const pokemones = await PokeManager.getPokes()
-    let { id } = req.params
-    id = Number(id)
-    if (isNaN(id)) {
+    let { pid } = req.params
+    pid = Number(pid)
+    if (isNaN(pid)) {
       res.setHeader('Content-Type', 'application/json')
       return res.status(400).json({ error: 'El argumento id debe ser numérico' })
     }
 
-    const result = pokemones.filter(pokemon => pokemon.id === id)
+    const result = pokemones.filter(pokemon => pokemon.id === pid)
     if (result.length === 0) {
       return res.status(404).json({ error: 'Pokémon no encontrado' })
     }
@@ -49,16 +47,7 @@ router.get('/:id', async (req, res) => {
   }
 })
 
-// MANUAL DE USO  ==========================
-
-// 1. Se recomienda indicar mediante el Postman con comando Post > body > raw
-/*
- ejemplo :
-{
-  "type": "fire, water, grass, ...los tipos que quieran incluir y
-  luego en el browser se puede ver el fronted"
-}
-  */
+// Recurso extra para armar la base de datos de los pokemones (pokeData.json) extrayendo los datos de la pokeApi
 router.post('/create-type', async (req, res) => {
   const { type } = req.body
 
@@ -82,14 +71,14 @@ router.post('/create-type', async (req, res) => {
   try {
     const pokemones = await savePokemonDataToFile(...printType)
     res.setHeader('Content-Type', 'application/json')
-    res.status(200).json({ message: 'Se han agregado los siguientes pokemones a la API:', pokemones })
+    res.status(200).json({ message: `Se han agregado los siguientes tipos de pokemones a la API: ${printType}`, pokemones })
   } catch (err) {
     res.setHeader('Content-Type', 'application/json')
     res.status(500).json({ error: 'Ha ocurrido un error', details: err.message })
   }
 })
 
-router.put('/:id', async (req, res) => {
+/* router.put('/:id', async (req, res) => {
   let { id } = req.params
   id = Number(id)
 
@@ -148,32 +137,4 @@ router.put('/:id', async (req, res) => {
     )
   }
 })
-
-router.delete('/:id', async (req, res) => {
-  let { id } = req.params
-  id = Number(id)
-  if (isNaN(id)) {
-    res.setHeader('Content-Type', 'application/json')
-    return res.status(400).json({ error: 'id debe ser numerico' })
-  }
-
-  try {
-    const resultado = await PokeManager.deletePoke(id)
-    if (resultado > 0) {
-      res.setHeader('Content-Type', 'application/json')
-      return res.status(200).json({ payload: 'Pokemon eliminado </3 ...!!!' })
-    } else {
-      res.setHeader('Content-Type', 'application/json')
-      return res.status(500).json({ error: 'Error al eliminar D: ! ' })
-    }
-  } catch (error) {
-    console.log(error)
-    res.setHeader('Content-Type', 'application/json')
-    return res.status(500).json(
-      {
-        error: 'Error inesperado en servidor',
-        detalle: `${error.message}`
-      }
-    )
-  }
-})
+*/
