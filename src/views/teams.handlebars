@@ -1,0 +1,35 @@
+<!-- teams.handlebars -->
+<h1>Detalles del Entrenador</h1>
+
+{{#if trainer}}
+    <p><strong>ID del Entrenador:</strong> {{trainer.id}}</p>
+    <p><strong>Nombre del Entrenador:</strong> {{trainer.nombre}}</p>
+
+    <h2>Equipo</h2>
+    {{#if team}}
+        <div>
+            <h3>Equipo ID: {{team.id}}</h3>
+            <h4>Pokemones</h4>
+            <ul id="pokemones">
+                {{#each team.pokemones}}
+                    <li>
+                        {{#if this.nombre}}
+                            <img src="{{this.imagen}}" alt="{{this.nombre}}" style="width: 50px; height: 50px;">
+                            {{this.nombre}} (ID: {{this.pokeID}})
+                        {{else}}
+                            Pokémon ID {{this.pokeID}} no encontrado.
+                        {{/if}}
+                    </li>
+                {{/each}}
+            </ul>
+        </div>
+    {{else}}
+        <p>No se encontraron datos del equipo.</p>
+    {{/if}}
+{{else}}
+    <p>No se encontró información del entrenador.</p>
+{{/if}}
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/equipos.js"></script> <!-- Corrige la ruta aquí -->
+

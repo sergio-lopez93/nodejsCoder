@@ -1,0 +1,26 @@
+<!-- home.handlebars -->
+<h1>Todos los Pokémon Disponibles</h1>
+<div id="todosPokemones">
+    {{#each pokemones}}
+        <div class="pokemon-card">
+            <img src="{{this.imagen}}" alt="{{this.nombre}}" style="width: 100px; height: 100px;">
+            <h3>{{this.nombre}}</h3>
+            <button onclick="agregarPokemon({{this.id}})">Agregar al equipo</button>
+            <ul id="equipos">
+  {{#each equipos}}
+    <li>
+      {{nombreEquipo}} - ID: {{id}}
+      <button class="actualizarEquipo" data-team-id="{{id}}" data-poke-id="{{pokeID}}">
+        Actualizar Equipo
+      </button>
+    </li>
+  {{/each}}
+</ul>
+
+        </div>
+    {{/each}}
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/home.js"></script> <!-- Corrige la ruta aquí -->
+

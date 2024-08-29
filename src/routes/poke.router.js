@@ -7,21 +7,14 @@ export const router = Router()
 router.get('/', async (req, res) => {
   try {
     const pokemones = await PokeManager.getPokes()
-    console.log('los pokemones fueron agregados correctamente')
     let { limit } = req.query
-    if (limit) {
-      limit = Number(limit)
-      if (isNaN(limit)) {
-        res.setHeader('Content-Type', 'application/json')
-        return res.status(400).send('El argumento limit debe ser numerico')
-      }
-    } else {
-      limit = pokemones.length
+    limit = Number(limit)
+    if (limit && (isNaN(limit) || limit < 1)) {
+      return res.status(400).send('El argumento limit debe ser un número positivo')
     }
-    const result = pokemones.slice(0, limit)
+    const result = pokemones.slice(0, limit || pokemones.length)
     res.status(200).json(result)
   } catch (err) {
-    console.error('error al leer el archivo json', err.message)
     res.status(500).send('Error al leer el archivo JSON')
   }
 })
@@ -29,51 +22,33 @@ router.get('/', async (req, res) => {
 router.get('/:pid', async (req, res) => {
   try {
     const pokemones = await PokeManager.getPokes()
-    let { pid } = req.params
-    pid = Number(pid)
-    if (isNaN(pid)) {
-      res.setHeader('Content-Type', 'application/json')
-      return res.status(400).json({ error: 'El argumento id debe ser numérico' })
-    }
+    const pid = Number(req.params.pid)
+    if (isNaN(pid)) return res.status(400).json({ error: 'El argumento id debe ser numérico' })
 
     const result = pokemones.filter(pokemon => pokemon.id === pid)
-    if (result.length === 0) {
-      return res.status(404).json({ error: 'Pokémon no encontrado' })
-    }
+    if (result.length === 0) return res.status(404).json({ error: 'Pokémon no encontrado' })
     res.status(200).json(result)
   } catch (err) {
-    console.error('Error al leer el archivo JSON:', err.message)
     res.status(500).send('Error al leer el archivo JSON')
   }
 })
 
-// Recurso extra para armar la base de datos de los pokemones (pokeData.json) extrayendo los datos de la pokeApi
 router.post('/create-type', async (req, res) => {
   const { type } = req.body
-
-  // Verificar si el body está vacío o no contiene la clave 'type'
   if (!type) {
-    const defaultType = ['normal']
-    await savePokemonDataToFile(...defaultType)
-    res.setHeader('Content-Type', 'application/json')
-    return res.status(202).json({ ok: 'campo vacio, se agregaran pokemones normales por defecto' })
+    await savePokemonDataToFile('normal')
+    return res.status(202).json({ ok: 'Campo vacío, se agregarán pokemones normales por defecto' })
   }
 
-  // Si se proporciona 'type', separarlo por comas y espacios
-  const printType = type.split(', ').map(t => t.trim())
-
-  // Verificar que todos los elementos de 'printType' sean cadenas
+  const printType = type.split(',').map(t => t.trim())
   if (!printType.every(t => typeof t === 'string' && t.length > 0)) {
-    res.setHeader('Content-Type', 'application/json')
     return res.status(400).json({ error: 'Los datos deben ser letras' })
   }
 
   try {
     const pokemones = await savePokemonDataToFile(...printType)
-    res.setHeader('Content-Type', 'application/json')
-    res.status(200).json({ message: `Se han agregado los siguientes tipos de pokemones a la API: ${printType}`, pokemones })
+    res.status(200).json({ message: `Se han agregado los siguientes tipos de pokemones: ${printType}`, pokemones })
   } catch (err) {
-    res.setHeader('Content-Type', 'application/json')
     res.status(500).json({ error: 'Ha ocurrido un error', details: err.message })
   }
 })
